@@ -28,6 +28,16 @@ body {
     position: relative;
 }
 
+.bannierContact {
+    margin-top: 0px;
+    padding-top: 0%;
+    background-image: url(img/contactBandeau.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    position: relative;
+}
+
 .menuHeader {
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
