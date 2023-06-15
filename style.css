@@ -1,9 +1,39 @@
 body {
-    background-color: aquamarine;
+    margin: 0px;
+    padding: 0px;
 }
 
-h1 {
-    color: rgb(255, 237, 78);
+.headerStyle {
+    font-family: 'Cinzel Decorative', cursive;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 75px;
+    background-color: #3c59db;
+    color: white;
+    padding: 100px;
+}
+
+.logoHeader {
+    margin-right: 90px;
+}
+
+.bannierImage {
+    margin-top: 0px;
+    padding-top: 0%;
+    background-image: url(img/zelda-timeline_Header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    position: relative;
+}
+
+.menuHeader {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;    
+    color: white;
+    text-decoration: none;
+    outline: none;
 }
 
 .pics {
