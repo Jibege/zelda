@@ -44,7 +44,17 @@ body {
     color: white;
     text-decoration: none;
     outline: none;
+    list-style-type: none;
 }
+
+a {
+    text-decoration: none;
+}
+
+.a:visited {
+    text-decoration: none;
+}
+
 
 .titreHeader {
     margin: 0px;
