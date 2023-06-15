@@ -24,16 +24,33 @@ body {
     background-image: url(img/zelda-timeline_Header.jpg);
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 75vh;
     position: relative;
 }
 
 .menuHeader {
     font-size: 15px;
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif;
     color: white;
     text-decoration: none;
     outline: none;
+}
+
+.titreHeader {
+    margin: 0px;
+    padding: 20px 30px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+    background: rgba( 60, 89, 219, 0.6 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: absolute;
+    bottom: 70px;
+    right: 70px;
 }
 
 .pics {
